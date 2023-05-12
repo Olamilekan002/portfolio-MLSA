@@ -24,7 +24,7 @@ const imageAltText = "ai chip in a abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am enthusiastic about anything related to Data, fits in roles as a Data Analyst, A junior Data Scientist or a Machine Learning Engineer. I solved day to day problems using a data-driven approach with a keen eye for patterns and trends in data to draw out meaningful insight.";
+  "I am enthusiastic about anything related to Data, fits in roles as a Data Analyst, A junior Data Scientist or a Machine Learning Engineer.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -36,6 +36,7 @@ const skillsList = [
   "machine learning",
   "database design and management",
   "Cloud Computing",
+  "Automation",
 ];
 
 /**
@@ -53,9 +54,9 @@ const About = () => {
       <div
         style={{
           backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
+          width: "70%",
+          padding: "1rem",
+          margin: "1rem auto",
           textAlign: "center",
         }}
       >
@@ -68,7 +69,7 @@ const About = () => {
             columns: 2,
             fontSize: "1.25rem",
             margin: "2rem 3rem",
-            gap: "3rem",
+            gap: "1rem",
           }}
         >
           {skillsList.map((skill) => (
@@ -76,7 +77,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "0rem 2rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

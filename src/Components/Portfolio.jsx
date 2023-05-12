@@ -31,13 +31,13 @@ const imageAltText = "A hand looking at a dashboard";
  */
 const projectList = [
   {
-    title: " Drone-Fault-Tester",
+    title: " Drone Fault Tester",
     description:
-      "A classification model to identify a device has an off set fault or not, regardless of the device. The model can be used by AirQo to automatically flag a device that is returning faulty data.",
+      "A classification model to identify a device has an off set fault or not, regardless of the device.",
     url: "https://github.com/Olamilekan002/Drone-Fault-Tester",
   },
   {
-    title: "Ford_Gobike-trip-Exploration",
+    title: "Ford Gobike Trip Exploration",
     description:
       "In depth data analysis on Ford Gobike trip in San Francisco with key findings and recommendations.",
     url: "https://github.com/Olamilekan002/Ford_Gobike-trip-Exploration",
@@ -48,16 +48,10 @@ const projectList = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiNGNiNGNlZWYtNzRlOS00Y2M2LWI4NzQtZjYzNjE2ZmI4ODUxIiwidCI6IjE1NzRhOGM4LTcwZDgtNGFmZi04ZjVhLWJjNWI4ZTNiOGE1ZiJ9",
   },
   {
-    title: "Research-Paper-Management-System-using-Python",
+    title: "Research Paper Management System",
     description:
-      "A simple research database management system using Python and various libraries such as tkinter, pandas, and nltk. The program allows users to submit new research papers, search the database for papers based on keywords, and export search results to a CSV file.",
+      "A simple research database management system using Python and various libraries such as tkinter, pandas, and nltk.",
     url: "https://github.com/Olamilekan002/Research-Paper-Management-System-using-Python",
-  },
-  {
-    title: "Deep Learning",
-    description:
-      "This contains various deep learning projects and algorithm",
-    url: "https://github.com/Olamilekan002/Deep-Learning-NN",
   },
 ];
 
@@ -65,11 +59,11 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "2rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "100%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>

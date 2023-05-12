@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Olamilekan Omotosho",
-  title: "Data Analyst",
+  title: "Data Analyst/ML Engineer",
   email: "omotoshomatthew73@gmail.com",
   gitHub: "github.com/Olamilekan002/",
   instagram: "",
