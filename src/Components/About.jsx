@@ -16,27 +16,26 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/ai-technology-microchip-background-digital-transformation-concept.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "ai chip in a abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am enthusiastic about anything related to Data, fits in roles as a Data Analyst, A junior Data Scientist or a Machine Learning Engineer. I solved day to day problems using a data-driven approach with a keen eye for patterns and trends in data to draw out meaningful insight.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Data analysis and visualization",
+  "statistical modeling",
+  "machine learning",
+  "database design and management",
+  "Cloud Computing",
 ];
 
 /**
@@ -44,8 +43,8 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const detailOrQuote = 
+"As a data scientist, I am passionate about using cutting-edge techniques to solve real-world problems and drive innovation in diverse fields. By leveraging my skills in data analysis, statistical modeling, and machine learning, I strive to uncover meaningful insights and develop data-driven solutions that make a positive impact on society.";
 
 const About = () => {
   return (

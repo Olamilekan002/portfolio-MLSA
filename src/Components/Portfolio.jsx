@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/close-up-hand-holding-futuristic-screen.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A hand looking at a dashboard";
 
 /**
  * Project list
@@ -31,28 +31,33 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: " Drone-Fault-Tester",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A classification model to identify a device has an off set fault or not, regardless of the device. The model can be used by AirQo to automatically flag a device that is returning faulty data.",
+    url: "https://github.com/Olamilekan002/Drone-Fault-Tester",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Ford_Gobike-trip-Exploration",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "In depth data analysis on Ford Gobike trip in San Francisco with key findings and recommendations.",
+    url: "https://github.com/Olamilekan002/Ford_Gobike-trip-Exploration",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "DataFest 2022 Hackaton",
+    description: "A detailed performace report of a service provider using PowerBI",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiNGNiNGNlZWYtNzRlOS00Y2M2LWI4NzQtZjYzNjE2ZmI4ODUxIiwidCI6IjE1NzRhOGM4LTcwZDgtNGFmZi04ZjVhLWJjNWI4ZTNiOGE1ZiJ9",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Research-Paper-Management-System-using-Python",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A simple research database management system using Python and various libraries such as tkinter, pandas, and nltk. The program allows users to submit new research papers, search the database for papers based on keywords, and export search results to a CSV file.",
+    url: "https://github.com/Olamilekan002/Research-Paper-Management-System-using-Python",
+  },
+  {
+    title: "Deep Learning",
+    description:
+      "This contains various deep learning projects and algorithm",
+    url: "https://github.com/Olamilekan002/Deep-Learning-NN",
   },
 ];
 
